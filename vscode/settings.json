@@ -1,49 +1,13 @@
 {
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"editor.stickyScroll.enabled": false,
-	"editor.detectIndentation": false,
-	"editor.linkedEditing": true,
-	"editor.insertSpaces": false,
-	"editor.indentSize": "tabSize",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.productIconTheme": "bongocat",
-	"workbench.list.openMode": "doubleClick",
-	"workbench.tree.enableStickyScroll": false,
-	"workbench.tree.indent": 12,
-	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Material Theme Ocean High Contrast",
-	"explorer.compactFolders": false,
-	"explorer.autoReveal": false,
-	"files.trimTrailingWhitespace": true,
-	"security.workspace.trust.untrustedFiles": "open",
-	"git.confirmSync": false,
-	"git.autofetch": true,
-	"prisma.showPrismaDataPlatformNotification": false,
-	"redhat.telemetry.enabled": false,
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"auto-close-tag.disableOnLanguage": [],
-	"cSpell.diagnosticLevel": "Hint",
-	"php.inlayHints.parameters.enabled": false,
-	"php.inlayHints.parameters.byReference": false,
-	"php.inlayHints.types.lambdaParameter": false,
-	"php.inlayHints.types.return": false,
-	"rust-analyzer.inlayHints.parameterHints.enable": false,
-	"rust-analyzer.inlayHints.genericParameterHints.const.enable": false,
-	"rust-analyzer.inlayHints.closingBraceHints.enable": false,
-	"rust-analyzer.inlayHints.chainingHints.enable": false,
-	"rust-analyzer.inlayHints.typeHints.enable": false,
-	
-	"files.associations": {
-		"*.module": "php"
+	"[csharp]": {
+		"editor.defaultFormatter": "csharpier.csharpier-vscode"
 	},
-	"cSpell.userWords": [
-		"distro",
-		"Hengeveld",
-		"Newtonsoft",
-		"Vusion"
-	],
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
 	"auto-close-tag.activationOnLanguage": [
 		"xml",
 		"php",
@@ -64,13 +28,43 @@
 		"HTML (Eex)",
 		"plist"
 	],
-	"[csharp]": {
-		"editor.defaultFormatter": "csharpier.csharpier-vscode"
+	"auto-close-tag.disableOnLanguage": [],
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.userWords": ["distro", "Hengeveld", "Newtonsoft", "Vusion"],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.stickyScroll.enabled": false,
+	"explorer.autoReveal": false,
+	"explorer.compactFolders": false,
+	"files.associations": {
+		"*.module": "php"
 	},
-	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-	},
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer"
-	}
+	"files.trimTrailingWhitespace": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"php.inlayHints.parameters.byReference": false,
+	"php.inlayHints.parameters.enabled": false,
+	"php.inlayHints.types.lambdaParameter": false,
+	"php.inlayHints.types.return": false,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prisma.showPrismaDataPlatformNotification": false,
+	"redhat.telemetry.enabled": false,
+	"rust-analyzer.inlayHints.chainingHints.enable": false,
+	"rust-analyzer.inlayHints.closingBraceHints.enable": false,
+	"rust-analyzer.inlayHints.genericParameterHints.const.enable": false,
+	"rust-analyzer.inlayHints.parameterHints.enable": false,
+	"rust-analyzer.inlayHints.typeHints.enable": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.colorTheme": "Material Theme Ocean High Contrast",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.list.openMode": "doubleClick",
+	"workbench.productIconTheme": "bongocat",
+	"workbench.startupEditor": "none",
+	"workbench.tree.enableStickyScroll": false,
+	"workbench.tree.indent": 12
 }

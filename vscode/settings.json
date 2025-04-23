@@ -30,7 +30,12 @@
 	],
 	"auto-close-tag.disableOnLanguage": [],
 	"cSpell.diagnosticLevel": "Hint",
-	"cSpell.userWords": ["distro", "Hengeveld", "Newtonsoft", "Vusion"],
+	"cSpell.userWords": [
+		"distro",
+		"Hengeveld",
+		"Newtonsoft",
+		"TRPC"
+	],
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
 	"editor.formatOnSave": true,

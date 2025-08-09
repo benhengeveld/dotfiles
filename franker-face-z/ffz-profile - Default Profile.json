@@ -1,0 +1,43 @@
+{
+	"version": 2,
+	"type": "profile",
+	"profile": {
+		"id": 0,
+		"uuid": "ffz_profile_default",
+		"name": "Default Profile",
+		"i18n_key": "setting.profiles.default",
+		"pause_updates": false,
+		"description": "Settings that apply everywhere on Twitch.",
+		"show_toggle": false
+	},
+	"toggled": true,
+	"values": {
+		"chat.tab-complete.prioritize-favorites": true,
+		"chat.emote-menu.enabled": true,
+		"player.compressor.enable": false,
+		"chat.emote-menu.tall": false,
+		"layout.hide-discover-luna": false,
+		"channel.round-avatars": true,
+		"chat.filtering.highlight-mentions": true,
+		"chat.bits.show-pinned": false,
+		"chat.emote-menu.show-quick-nav": true,
+		"channel.hide-live-indicator": false,
+		"chat.emote-menu.icon": false,
+		"chat.emote-menu.reduced-padding": false,
+		"player.hide-event-bar": false,
+		"directory.uptime": 0,
+		"chat.banners.hype-train": false,
+		"chat.subs.merge-gifts": 0,
+		"chat.emote-menu.combine-tabs": false,
+		"chat.banners.last-events": true,
+		"layout.minimal-navigation": false,
+		"ffz.show-new-settings": false,
+		"metadata.player-stats": true,
+		"metadata.viewers": false,
+		"layout.swap-sidebars": false,
+		"layout.side-nav.hide-offline": false,
+		"channel.show-celebrations": true,
+		"channel.auto-skip-trailer": false,
+		"chat.emote-menu.effect-tab": false
+	}
+}

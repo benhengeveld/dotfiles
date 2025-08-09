@@ -1,6 +1,6 @@
 [
 	{
-		"key": "ctrl+d,"
+		"key": "ctrl+d,",
 		"command": "editor.action.copyLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly"
 	},

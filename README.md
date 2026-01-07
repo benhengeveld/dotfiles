@@ -1,14 +1,15 @@
 # dotfiles
 
-### Linux command to install VS Code extentions
+### Linux command to setup VS Code
 ```sh
-curl -s "https://raw.githubusercontent.com/benhengeveld/dotfiles/refs/heads/main/vscode/extensions.txt" | xargs -L 1 code --install-extension
+curl -fsSL https://raw.githubusercontent.com/benhengeveld/dotfiles/main/scripts/vscode-setup.sh | bash
 ```
 
-### Windows command to install VS Code extentions
+### Windows powershell command to setup VS Code
 ```powershell
-(Invoke-WebRequest "https://raw.githubusercontent.com/benhengeveld/dotfiles/refs/heads/main/vscode/extensions.txt").Content -split "`n" | ForEach-Object { 
-    $ext = $_.Trim()
-    if ($ext) { code --install-extension $ext }
-}
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+```powershell
+irm https://raw.githubusercontent.com/benhengeveld/dotfiles/main/scripts/vscode-setup.ps1 | iex
 ```

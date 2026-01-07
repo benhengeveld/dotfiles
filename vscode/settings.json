@@ -35,7 +35,7 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
 	"editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
-	"editor.fontLigatures": true,
+	"editor.fontLigatures": false,
 	"editor.formatOnSave": true,
 	"editor.indentSize": "tabSize",
 	"editor.insertSpaces": false,

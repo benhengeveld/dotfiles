@@ -34,7 +34,7 @@
 	"editor.accessibilitySupport": "off",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": false,
-	"editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": false,
 	"editor.formatOnSave": true,
 	"editor.indentSize": "tabSize",

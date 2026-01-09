@@ -40,6 +40,7 @@
 	"editor.indentSize": "tabSize",
 	"editor.insertSpaces": false,
 	"editor.linkedEditing": true,
+	"editor.lightbulb.enabled": "off",
 	"editor.stickyScroll.enabled": false,
 	"explorer.autoReveal": false,
 	"explorer.compactFolders": false,

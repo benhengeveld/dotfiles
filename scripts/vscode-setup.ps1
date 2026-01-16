@@ -4,8 +4,9 @@ function Ask-YesNo {
 	param([string]$Prompt)
 
 	while ($true) {
-		$response = Read-Host "$Prompt (y/n)"
+		$response = Read-Host "$Prompt (Y/n)"
 		switch ($response.ToLower()) {
+			''  { return $true }
 			'y' { return $true }
 			'n' { return $false }
 		}

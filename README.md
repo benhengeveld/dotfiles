@@ -3,7 +3,7 @@
 ## VS Code
 
 ### Font
-https://fonts.google.com/specimen/JetBrains+Mono
+Install the fonts from the fonts folder
 
 ### Linux command to setup VS Code
 ```sh

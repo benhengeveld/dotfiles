@@ -3,9 +3,9 @@ set -e
 
 ask_yes_no() {
 	while true; do
-		read -rp "$1 (y/n): " response
+		read -rp "$1 (Y/n): " response
 		case "$response" in
-			y|Y) return 0 ;;
+			""|y|Y) return 0 ;;
 			n|N) return 1 ;;
 		esac
 	done
